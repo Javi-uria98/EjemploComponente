@@ -38,7 +38,7 @@ public class ComponenteHolaMundo extends Label {
      * Este método saluda utilizando el nombre que tiene como propiedad
      */
     public void saluda() {
-        if (nombre == null || "".equals(nombre))
+        if (getNombre() == null || "".equals(getNombre()))
             throw new RuntimeException("El nombre no puede estar vacío"); //las excepciones salen directamente del método, así que no hace falta poner un else
 
         setText("Hola mundo " + this.nombre);
