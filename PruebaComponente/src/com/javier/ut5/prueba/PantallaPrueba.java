@@ -23,7 +23,7 @@ public class PantallaPrueba extends Application {
 
         ComponenteHolaMundo comp=new ComponenteHolaMundo();
         TextField textField=new TextField();
-        Button button=new Button();
+        Button button=new Button("Saludar");
 
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
